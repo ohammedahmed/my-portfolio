@@ -455,7 +455,13 @@ strong{
         font-size:13px;
     }
 
-    .image-2{
-    animation-range:entry 50% cover 40%;
+    .sec-3{
+        align-items:center;
+        justify-content:flex-start;
+    }
+
+    .all-projects{
+        grid-template-columns:150px 150px;
+        grid-template-rows:150px 150px 15px;
     }
 }
