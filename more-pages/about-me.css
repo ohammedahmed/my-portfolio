@@ -109,7 +109,6 @@ strong{
     animation-timing-function:linear;
     border:solid 2px white;
     display:flex;
-    flex-direction:column;
     align-items:center;
     justify-content:center;
 }
@@ -176,9 +175,20 @@ span{
     right:25px;
 }
 
+.computer{
+    width:900px;
+
+}
+
 img{
     width:100%;
     height:100%;
+}
+
+@media (max-width:1210px){
+    .computer{
+        display:none;
+    }
 }
 
 @media (max-width:650px){
