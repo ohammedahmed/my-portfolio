@@ -207,6 +207,14 @@ img{
         top:5px;
     }
 
+    p{
+        margin-bottom:5px;
+    }
+
+    span{
+        margin-bottom:10px;
+    }
+
     .p-1{
         margin-top:20px;
     }
