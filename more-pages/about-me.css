@@ -1,0 +1,196 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+body{
+    background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' version='1.1' xmlns:xlink='http://www.w3.org/1999/xlink' xmlns:svgjs='http://svgjs.dev/svgjs' width='1440' height='980' preserveAspectRatio='none' viewBox='0 0 1440 980'%3e%3cg clip-path='url(%26quot%3b%23SvgjsClipPath1004%26quot%3b)' fill='none'%3e%3crect width='1440' height='980' x='0' y='0' fill='rgba(0%2c 0%2c 0%2c 1)'%3e%3c/rect%3e%3ccircle r='97.445' cx='1248.54' cy='887.62' fill='rgba(142%2c 67%2c 237%2c 1)'%3e%3c/circle%3e%3ccircle r='85.69' cx='556.58' cy='230.87' fill='rgba(142%2c 67%2c 237%2c 1)'%3e%3c/circle%3e%3ccircle r='69.89' cx='1095.77' cy='616.48' fill='rgba(142%2c 67%2c 237%2c 1)'%3e%3c/circle%3e%3ccircle r='77.53' cx='646.8' cy='12.68' fill='rgba(142%2c 67%2c 237%2c 1)'%3e%3c/circle%3e%3ccircle r='32.575' cx='1342.02' cy='41.06' fill='rgba(142%2c 67%2c 237%2c 1)'%3e%3c/circle%3e%3ccircle r='88.72' cx='410.56' cy='979.37' fill='rgba(142%2c 67%2c 237%2c 1)'%3e%3c/circle%3e%3ccircle r='32.79' cx='321.57' cy='787.31' fill='rgba(142%2c 67%2c 237%2c 1)'%3e%3c/circle%3e%3ccircle r='68.53' cx='312.69' cy='434.23' fill='rgba(142%2c 67%2c 237%2c 1)'%3e%3c/circle%3e%3ccircle r='52.165' cx='1070.09' cy='559.42' fill='rgba(142%2c 67%2c 237%2c 1)'%3e%3c/circle%3e%3ccircle r='38.39' cx='969.35' cy='268.84' fill='rgba(142%2c 67%2c 237%2c 1)'%3e%3c/circle%3e%3ccircle r='28.155' cx='50.29' cy='44.04' fill='rgba(142%2c 67%2c 237%2c 1)'%3e%3c/circle%3e%3c/g%3e%3cdefs%3e%3cclipPath id='SvgjsClipPath1004'%3e%3crect width='1440' height='980' x='0' y='0'%3e%3c/rect%3e%3c/clipPath%3e%3c/defs%3e%3c/svg%3e");
+}
+
+.menu{
+    width:100%;
+    position:absolute;
+    top:0;
+    height:100px;
+    background-color:#f0ed8b;
+    display:flex;
+    align-items:center;
+    justify-content:space-between;
+}
+
+strong{
+    color:#8e43ed;
+}
+
+.menu-h1{
+    font-family: "Montserrat", system-ui;
+    font-optical-sizing: auto;
+    font-weight:weight;
+    font-style: normal;
+}
+
+.text-menu{
+    margin-left:25px;
+    animation-name:affect;
+    animation-duration:1s;
+    animation-timing-function:linear;
+}
+
+@keyframes affect{
+    0% , 50% {
+        transform:translateX(-15px);
+        opacity:0;
+    }
+    100%{
+        transform:translateX(0);
+        opacity:1;
+    }
+}
+
+.menu-link{
+    display:flex;
+    align-items:center;
+    margin-right:25px;
+    animation-name:effect-2;
+    animation-duration:1.5s;
+    animation-timing-function:linear;
+}
+
+@keyframes effect-2 {
+    0% , 50%{
+        transform:translateY(15px);
+        opacity:0;
+    }
+    100%{
+        transform:translateY(0);
+        opacity:1;
+    }
+}
+
+.link-1{
+    font-family: "Montserrat", system-ui;
+    font-optical-sizing: auto;
+    font-weight:700;
+    font-style: normal;
+    text-decoration:none;
+    color:black;
+    margin:0 10px;
+    padding: 5px 15px;
+    transition:.5s;
+}
+
+.link-1:hover{
+    text-shadow:0px 0px 7px #b680fd
+}
+
+.page-link{
+    color:white;
+    background-color:black;
+    border-radius:7px;
+}
+
+/* -------------- the end of the menu ------------------- */
+
+/* -------------- the start of section-1 ---------------- */
+.content{
+    width:80%;
+    height:600px;
+    background-color:rgba(255, 255, 255, 0.24);
+    backdrop-filter:blur(10px);
+    position:absolute;
+    top:50%;
+    left:50%;
+    transform:translate(-50%,-50%);
+    border-radius:13px;
+    padding:25px;
+    animation-name:effect-3;
+    animation-duration:1.5s;
+    animation-timing-function:linear;
+    border:solid 2px white;
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    justify-content:center;
+}
+
+@keyframes effect-3{
+    0% , 50% {
+    transform:translate(-53% , -50%);
+    opacity:0;
+    }
+    100%{
+    transform:translate(-50% , -50%);
+    opacity:1;
+    }
+}
+
+.sec-h1{
+    color:#f0ed8b;
+    text-align:center;
+    font-family: "Ubuntu Mono", monospace;
+    font-weight: 700;
+    font-style: italic;
+    position:absolute;
+    top:25px;
+}
+
+.part-1{
+    width:100%;
+}
+
+.who{
+    max-width:450px;
+    display:flex;
+    flex-direction:column;
+    align-items:flex-start;
+}
+
+p{
+    color:white;
+    font-family: "Ubuntu Mono", monospace;
+    font-weight: 500;
+    font-style: italic;
+    margin-bottom:20px;
+}
+
+span{
+    color:rgb(177, 177, 177);
+    font-family: "Ubuntu Mono", monospace;
+    font-weight: 700;
+    font-style: italic;
+    line-height:30px;
+    display:list-item;
+    list-style:square;
+    list-style-position:inside;
+    margin-bottom:30px;
+}
+
+.link-img{
+    width:40px;
+    height:40px;
+    border-radius:50%;
+    overflow:hidden;
+    position:absolute;
+    bottom:25px;
+    right:25px;
+}
+
+img{
+    width:100%;
+    height:100%;
+}
+
+@media (max-width:650px){
+    .menu{
+        display:flex;
+        flex-direction:column;
+        justify-content:center;
+    }
+    .text-menu , .menu-link{
+        margin:0;
+    }
+    .text-menu{
+        margin-bottom:15px;
+    }
+}
