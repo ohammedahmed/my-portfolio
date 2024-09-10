@@ -198,13 +198,30 @@ img{
 @media (max-width:530px) {
     .content{
         width:90%;
+        height:auto;
     }
 
     .sec-h1{
         font-size:23px;
+        position:absolute;
+        top:5px;
+    }
+
+    .p-1{
+        margin-top:20px;
     }
 
     .who{
         width:100%;
+    }
+
+    .end-span{
+        margin:0;
+    }
+
+    .link-img{
+        position:absolute;
+        bottom:10px;
+        right:10px;
     }
 }
