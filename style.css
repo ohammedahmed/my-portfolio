@@ -458,6 +458,7 @@ strong{
     .sec-3{
         align-items:center;
         justify-content:flex-start;
+        padding-bottom:30px
     }
 
     .all-projects{
