@@ -13,6 +13,13 @@ body{
     display:flex;
     align-items:center;
     justify-content:space-between;
+    background-color:rgba(238, 238, 238, 0.5);
+    backdrop-filter:blur(13px);
+    position:fixed;
+    z-index:10;
+    top:0;
+    border-bottom-right-radius:23px;
+    border-bottom-left-radius:23px;
 }
 
 .logo{
@@ -109,6 +116,7 @@ strong{
     display:flex;
     align-items:center;
     justify-content:space-around;
+    margin-top:100px;
 
 }
 
