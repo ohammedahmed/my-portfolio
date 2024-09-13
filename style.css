@@ -116,6 +116,13 @@ strong{
     width:620px;
 }
 
+img{
+    object-fit:cover;
+}
+.box-3{
+    grid-row:1/3;
+}
+
 .sec-1-h1 , .sec-2-h1 , .sec-3-h1{
     font-size:37px;
     font-family: "Montserrat", system-ui;

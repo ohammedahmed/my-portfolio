@@ -134,6 +134,7 @@ strong{
 
 img{
     width:100%;
+    object-fit:cover;
 }
 
 .a1{
