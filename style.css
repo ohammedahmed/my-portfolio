@@ -479,3 +479,20 @@ img{
         height:100%;
     }
 }
+
+::-webkit-scrollbar{
+    width:13px;
+}
+
+::-webkit-scrollbar-button{
+    background-color:transparent;
+    height:5px;
+}
+
+::-webkit-scrollbar-thumb{
+    background-color:rgb(0, 0, 211);;
+    border-radius:30px;
+}
+::-webkit-scrollbar-track{
+    background:transparent;
+}
