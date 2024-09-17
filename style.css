@@ -5,6 +5,7 @@
 
 body{
     overflow-x:hidden;
+}
 
 .menu{
     width:100%;
@@ -496,4 +497,29 @@ img{
 ::-webkit-scrollbar-track{
     background:transparent;
     transition:.3s;
+}
+
+
+
+
+.newName {
+    width:100%;
+    height:7px;
+    background-color:rgb(0, 0, 211);
+    position:fixed;
+    top:0;
+    transform-origin:right; /*so so important*/
+    z-index:15;
+    animation:newName linear;
+    animation-timeline:scroll();  /*so so important*/
+}
+
+@keyframes newName {
+    from{
+        transform:scale(0 , 1);  /*so so important*/
+    }
+
+    100%{
+        transorm:scale(1 , 1)  /*so so important*/
+    }
 }
