@@ -26,7 +26,7 @@
     </div>
     </div>
     <div class="circle"></div>
-    <section class="sec-1">
+    <section class="sec-1" id="sec-1">
         <div class="sec-1-text">
             <h1 class="sec-1-h1" id="to-js">Welcome you in my portfolio ... My name is Mohamad Ahmad !</h1>
             <p class="sec-1-p">you can see some of my projects , And you will know some informations about me !</p>
@@ -96,13 +96,17 @@ let moon = document.getElementById("dark-theme");
 let h1 = document.getElementById("to-js");
 let hh = document.getElementById("to-js-2");
 let project = document.getElementById("my-projects");
-
+let section = document.getElementById("sec-1")
     sun.addEventListener('click', () => {
     document.body.classList.toggle('dark-mode');
     sun.style.display = `none`;
     moon.style.display = `inline-block`;
     h1.style.color = `white`;
     hh.style.color = `white`;
+    section.style.background = `url(images/wave-haikei.png)`;
+    section.style.backgroundPosition = `center`;
+    section.style.backgroundSize = `cover`;
+    section.style.backgroundRepeat = `no-repeat`;
     project.style.color = `white`;
 });
 
@@ -113,6 +117,11 @@ moon.addEventListener('click', () => {
     h1.style.color = `rgb(27, 27, 128)`;
     hh.style.color = `rgb(27, 27, 128)`;
     project.style.color = `rgb(27, 27, 128)`;
+    section.style.background = `url(images/wave-haikei3.png)`;
+    section.style.backgroundPosition = `center`;
+    section.style.backgroundSize = `cover`;
+    section.style.backgroundRepeat = `no-repeat`;
+    project.style.color = `white`;
 })
 
 

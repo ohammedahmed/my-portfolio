@@ -227,7 +227,7 @@ strong{
     align-items:center;
     justify-content:space-around;
     margin-top:100px;
-    background:url(images/wave-haikei.png);
+    background:url(images/wave-haikei3.png);
     background-position:center;
     background-size:cover;
     background-repeat:no-repeat;
@@ -275,7 +275,12 @@ img{
     2px 2px 3px #555,
     3px 3px 6px #555,
     4px 4px 9px #555,
-    5px 5px 12px #555;
+    5px 5px 12px #54a8a1,
+    -1px 1px 0 #555,
+    -2px 2px 3px #555,
+    -3px 3px 6px #555,
+    -4px 4px 9px #555,
+    -5px 5px 12px #54a8a1;
 }
 
 .image-1{
