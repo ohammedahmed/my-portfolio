@@ -28,7 +28,7 @@ body{
     }
 
     100%{
-        transform:rotate(360deg);
+        transform:rotate(360deg) translateY(30px);
     }
 }
 
@@ -187,6 +187,10 @@ strong{
     transition:.5s;
 }
 
+#light-theme:hover{
+    box-shadow:0 0 30px rgb(92, 130, 235);
+    background-color:rgb(78, 122, 243);
+}
 
 #dark-theme{
     background:url(images/moon.png);
@@ -201,6 +205,12 @@ strong{
     border-radius:50%;
     transform:translate(-50%,-50%);
     transition:.5s;
+
+}
+
+#dark-theme:hover{
+    box-shadow:0 0 30px black;
+    background-color:black;
 }
 
 #dark-theme{
