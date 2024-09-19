@@ -523,6 +523,12 @@ img{
 
     .circle{
         transform:translate(0,0);
+        width:550px;
+        height:550px;
+    }
+    .brob{
+        position:fixed;
+        left:-50%;
     }
 }
 
