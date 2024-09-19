@@ -15,8 +15,8 @@
     <h1 class="logo-h1"><strong>My</strong>-portfolio</h1>
     </div>
     <button id="button">
-        <div id="circle2"></div>
-            <div id="circle3"></div>
+        <div id="light-theme"></div>
+            <div id="dark-theme"></div>
     </button>
     <div class="text-menu">
     <a href="#" class="menu-link home-link">Home</a>
@@ -27,7 +27,7 @@
     <div class="circle"></div>
     <section class="sec-1">
         <div class="sec-1-text">
-            <h1 class="sec-1-h1">Welcome you in my portfolio ... My name is Mohamad Ahmad !</h1>
+            <h1 class="sec-1-h1" id="to-js">Welcome you in my portfolio ... My name is Mohamad Ahmad !</h1>
             <p class="sec-1-p">you can see some of my projects , And you will know some informations about me !</p>
         </div>
         <div class="sec-1-image">
@@ -36,7 +36,7 @@
     </section>
     <section class="sec-2">
         <div class="sec-2-text">
-        <h1 class="sec-2-h1">you can trust me to create your website <br> And improve it .</h1>
+        <h1 class="sec-2-h1" id="to-js-2">you can trust me to create your website <br> And improve it .</h1>
         </div>
         <div class="sec-2-imgage">
         <img src="images/illustration-2.svg" alt="" class="image-2">
@@ -86,34 +86,59 @@
     </section>
 
 
+
+
+
 <script>
-    const toggleButton = document.getElementById('button');
-    let dark = document.getElementById("circle2");
-    let but = document.getElementById("button");
-toggleButton.addEventListener('click', () => {
+let sun = document.getElementById("light-theme");
+let moon = document.getElementById("dark-theme");
+let h1 = document.getElementById("to-js");
+let hh = document.getElementById("to-js-2");
+
+    sun.addEventListener('click', () => {
     document.body.classList.toggle('dark-mode');
-    dark.style.transform = `translate(80px , -50%)`;
-    dark.style.background = `url(images/moon.png)`;
-    dark.style.backgroundPosition = `center`;
-    dark.style.backgroundSize = `cover`;
-    dark.style.backgroundRepeat = `no-repeat`;
-    but.style.background = `url(images/stars.png)`;
-    but.style.backgroundPosition = `left`;
-    but.style.backgroundRepeat = `no-repeat`;
-    but.style.backgroundSize = `cover`;
-    but.style.backgroundColor = `rgb(65, 64, 64)`;
+    sun.style.display = `none`;
+    moon.style.display = `inline-block`;
+    h1.style.color = `white`;
+    hh.style.color = `white`;
+
 });
 
+moon.addEventListener('click', () => {
+    document.body.classList.remove('dark-mode');
+    sun.style.display = `inline-block`;
+    moon.style.display = `none`;
+    h1.style.color = `rgb(27, 27, 128)`;
+    hh.style.color = `rgb(27, 27, 128)`;
+})
 
 
 
-// const teggleButton = document.getElementById('button');
-// let light = document.getElementById("circle2");
-// let dut = document.getElementById("button");
-// teggleButton.addEventListener('click', () =>  {
-//     document.body.classList.toggle('light-mode');
-//     light.style.transform = `translate(0 , -50%)`;
-// });
+
+
+
+
+
+//     const toggleButton = document.getElementById('button');
+//     let dark = document.getElementById("circle2");
+//     let but = document.getElementById("button");
+//     let h = document.getElementById("to-js")
+//     toggleButton.addEventListener('click', () => {
+//     document.body.classList.toggle('dark-mode');
+//     dark.style.transform = `translate(80px , -50%)`;
+//     dark.style.background = `url(images/moon.png)`;
+//     dark.style.backgroundPosition = `center`;
+//     dark.style.backgroundSize = `cover`;
+//     dark.style.backgroundRepeat = `no-repeat`;
+//     but.style.background = `url(images/stars.png)`;
+//     but.style.backgroundPosition = `left`;
+//     but.style.backgroundRepeat = `no-repeat`;
+//     but.style.backgroundSize = `cover`;
+//     but.style.backgroundColor = `rgb(65, 64, 64)`;
+//     h.style.color = `white`;
+//     h.style.backgroundColor = `green`
+
+// }); 
 </script>
 </body>
 </html>
