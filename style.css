@@ -522,7 +522,7 @@ img{
     }
 
     .circle{
-        transform:translate(0,0);
+        transform:translate(0,30%);
         width:550px;
         height:550px;
     }
