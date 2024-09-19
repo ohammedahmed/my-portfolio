@@ -280,7 +280,6 @@ img{
     align-items:center;
     justify-content:center;
     flex-direction:column;
-    /* background-color:rgba(236, 228, 215, 0.418); */
     border-top-left-radius:13px;
     border-top-right-radius:13px;
 }

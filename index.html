@@ -43,7 +43,7 @@
         </div>
     </section>
     <section class="sec-3">
-        <h1 class="sec-3-h1">My projects</h1>
+        <h1 class="sec-3-h1" id="my-projects">My projects</h1>
         <div class="all-projects">
         <div class="box-1 boxes">
             <a href="https://ohammedahmed.github.io/front-end-mentor-2/" class="box-link" target="_blank">
@@ -94,6 +94,7 @@ let sun = document.getElementById("light-theme");
 let moon = document.getElementById("dark-theme");
 let h1 = document.getElementById("to-js");
 let hh = document.getElementById("to-js-2");
+let project = document.getElementById("my-projects");
 
     sun.addEventListener('click', () => {
     document.body.classList.toggle('dark-mode');
@@ -101,7 +102,7 @@ let hh = document.getElementById("to-js-2");
     moon.style.display = `inline-block`;
     h1.style.color = `white`;
     hh.style.color = `white`;
-
+    project.style.color = `white`;
 });
 
 moon.addEventListener('click', () => {
@@ -110,6 +111,7 @@ moon.addEventListener('click', () => {
     moon.style.display = `none`;
     h1.style.color = `rgb(27, 27, 128)`;
     hh.style.color = `rgb(27, 27, 128)`;
+    project.style.color = `rgb(27, 27, 128)`;
 })
 
 
