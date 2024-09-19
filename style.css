@@ -25,6 +25,11 @@ body{
 .logo{
     margin-left:25px;
     cursor:pointer;
+    display:flex;
+    align-items:center;
+    /* background-color:red; */
+    width:290px;
+    justify-content:space-around;
 }
 
 .logo-h1{
@@ -486,15 +491,12 @@ img{
         flex-direction:column;
         align-items:center;
         justify-content:center;
-        height:170px;
-    }
-
-    #button{
-        margin-bottom:20px;
+        height:120px;
     }
 
     .logo{
         margin-bottom:20px;
+        width:250px;
     }
 
     .sec-2{
