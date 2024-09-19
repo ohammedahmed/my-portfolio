@@ -14,7 +14,10 @@
     <div class="logo">
     <h1 class="logo-h1"><strong>My</strong>-portfolio</h1>
     </div>
-    <button id="button"><div id="circle2"></div></button>
+    <button id="button">
+        <div id="circle2"></div>
+            <div id="circle3"></div>
+    </button>
     <div class="text-menu">
     <a href="#" class="menu-link home-link">Home</a>
     <a href="more-pages/about-me.html" class="menu-link hover-link">About me</a>
@@ -85,11 +88,32 @@
 
 <script>
     const toggleButton = document.getElementById('button');
-
+    let dark = document.getElementById("circle2");
+    let but = document.getElementById("button");
 toggleButton.addEventListener('click', () => {
     document.body.classList.toggle('dark-mode');
-    circle2.style.transform = ' translate(80px , -50%);'
+    dark.style.transform = `translate(80px , -50%)`;
+    dark.style.background = `url(images/moon.png)`;
+    dark.style.backgroundPosition = `center`;
+    dark.style.backgroundSize = `cover`;
+    dark.style.backgroundRepeat = `no-repeat`;
+    but.style.background = `url(images/stars.png)`;
+    but.style.backgroundPosition = `left`;
+    but.style.backgroundRepeat = `no-repeat`;
+    but.style.backgroundSize = `cover`;
+    but.style.backgroundColor = `rgb(65, 64, 64)`;
 });
+
+
+
+
+// const teggleButton = document.getElementById('button');
+// let light = document.getElementById("circle2");
+// let dut = document.getElementById("button");
+// teggleButton.addEventListener('click', () =>  {
+//     document.body.classList.toggle('light-mode');
+//     light.style.transform = `translate(0 , -50%)`;
+// });
 </script>
 </body>
 </html>

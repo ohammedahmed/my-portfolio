@@ -125,29 +125,29 @@ strong{
     margin-bottom:20px;
     cursor:pointer;
 }
-
+/* 
 #button:focus{
     background:url(images/stars.png);
     background-color:rgb(65, 64, 64);
     background-position:center;
     background-size:cover;
     background-repeat:repeat-x;
-}
+} */
 
-#button:focus #circle2{
+/* #button:focus #circle2{
     transform:translate(80px , -50%);
     background:url(images/moon.png);
     background-position:center;
     background-repeat:no-repeat;
     background-size:cover;
-}
+} */
 
 .dark-mode{
     background-color:black;
     color:white;
 }
 
-#circle2{
+#circle2 , #circle3{
     width:40px;
     height:40px;
     background:url(images/sun.png);
@@ -159,6 +159,10 @@ strong{
     border-radius:50%;
     transform:translateY(-50%);
     transition:.5s;
+}
+
+#circle3{
+    display:none;
 }
 
 /* --------------- sec-1 --------------- */
