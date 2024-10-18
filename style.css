@@ -293,7 +293,7 @@ img{
 
 .my-name{
     color:transparent;
-    -webkit-text-stroke:white 1px;
+    -webkit-text-stroke:rgb(0, 58, 248) 1px;
     font-family:'Courier New', Courier, monospace;
     font-size:3rem;
     font-weight:900;
