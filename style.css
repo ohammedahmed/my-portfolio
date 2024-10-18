@@ -235,6 +235,7 @@ strong{
         transform:translateX(-1300px) translateY(-50%) rotateY(180deg) scale(.5);
     }
 }
+
 /* --------------- sec-1 --------------- */
 
 .sec-1{
@@ -288,7 +289,7 @@ img{
     overflow:hidden;
     position:relative;
     border-radius:50%;
-    border:solid 2px black;
+    border:solid 1px blue
 }
 
 .my-name{
