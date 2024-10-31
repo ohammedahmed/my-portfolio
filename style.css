@@ -176,7 +176,7 @@ strong{
 #light-theme{
     width:40px;
     height:40px;
-    background:url(images/sun.png);
+    background:url(images/moon.png);
     background-position:center;
     background-repeat:no-repeat;
     background-size:cover;
@@ -194,7 +194,7 @@ strong{
 }
 
 #dark-theme{
-    background:url(images/moon.png);
+    background:url(images/sun.png);    
     width:40px;
     height:40px;
     background-position:center;
@@ -357,7 +357,7 @@ img{
 .sec-3-h1{
     margin:0;
     margin-bottom:20px;
-    color:blue;
+    color:rgb(83, 172, 255);
 }
 
 .all-projects{
@@ -371,7 +371,7 @@ img{
     border:solid 2px;
     animation:boxes linear;
     animation-timeline:view();
-    animation-range:entry 0% cover 30%;
+    animation-range:entry 0% cover 35%;
     transition:.5s;
 }
 
